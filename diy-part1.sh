@@ -15,6 +15,7 @@
 
 # Add a feed source
 sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+git clone https://github.com/kenzok8/small.git 
 git clone https://github.com/zzsj0928/luci-app-pushbot package/luci-app-pushbot
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
 git clone https://github.com/esirplayground/luci-app-poweroff.git package/lean/luci-app-poweroff #关机不知道能不能用
