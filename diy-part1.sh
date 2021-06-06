@@ -30,3 +30,5 @@ git clone https://github.com/esirplayground/luci-app-poweroff.git package/lean/l
 git clone https://github.com/rufengsuixing/luci-app-onliner.git package/luci-app-onliner
 #argon管理
 git clone https://github.com/jerrykuku/luci-app-argon-config.git package/luci-app-argon-config
+#应用管理
+git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
