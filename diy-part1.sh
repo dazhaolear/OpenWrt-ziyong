@@ -22,9 +22,11 @@ git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luc
 
 # Add a feed source
 sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+git clone https://github.com/siropboy/sirpdboy-package package/sirpdboy-package
+
 git clone https://github.com/kenzok8/small.git /package/small
 git clone https://github.com/zzsj0928/luci-app-pushbot package/luci-app-pushbot
-git clone https://github.com/esirplayground/luci-app-poweroff.git package/lean/luci-app-poweroff #关机
+#git clone https://github.com/esirplayground/luci-app-poweroff.git package/lean/luci-app-poweroff #关机
 # Add Onliner
 # git clone https://github.com/rufengsuixing/luci-app-onliner.git feeds/luci/applications/luci-app-onliner
 git clone https://github.com/rufengsuixing/luci-app-onliner.git package/luci-app-onliner
