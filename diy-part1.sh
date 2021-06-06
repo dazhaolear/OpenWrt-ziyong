@@ -1,6 +1,9 @@
 #!/bin/bash
+sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+
 cd openwrt
 rm -rf package/lean/luci-theme-argon
+rm -rf package/lean/luci-app-netdata
 #
 # Copyright (c) 2019-2020 P3TERX <https://p3terx.com>
 #
@@ -21,7 +24,6 @@ git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luc
 #sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' ./feeds/luci/collections/luci/Makefile
 
 # Add a feed source
-sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 git clone https://github.com/siropboy/sirpdboy-package package/sirpdboy-package
 
 git clone https://github.com/kenzok8/small.git /package/small
