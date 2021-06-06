@@ -24,4 +24,9 @@ sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' ./feeds/luci/collections/luci
 sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 git clone https://github.com/kenzok8/small.git /package/small
 git clone https://github.com/zzsj0928/luci-app-pushbot package/luci-app-pushbot
-git clone https://github.com/esirplayground/luci-app-poweroff.git package/lean/luci-app-poweroff #关机不知道能不能用
+git clone https://github.com/esirplayground/luci-app-poweroff.git package/lean/luci-app-poweroff #关机
+# Add Onliner
+# git clone https://github.com/rufengsuixing/luci-app-onliner.git feeds/luci/applications/luci-app-onliner
+git clone https://github.com/rufengsuixing/luci-app-onliner.git package/luci-app-onliner
+#argon管理
+git clone https://github.com/jerrykuku/luci-app-argon-config.git package/luci-app-argon-config
