@@ -32,3 +32,5 @@ git clone https://github.com/rufengsuixing/luci-app-onliner.git package/luci-app
 git clone https://github.com/jerrykuku/luci-app-argon-config.git package/luci-app-argon-config
 #应用管理
 git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
+#文件管理
+git clone https://github.com/xiaozhuai/luci-app-filebrowser package/luci-app-filebrowser
