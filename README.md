@@ -1,4 +1,4 @@
-    https://github.com/dazhaolear/lede    
+https://github.com/dazhaolear/lede 
 # 编译说明
 - 注册登陆github账号，然后点我仓库右上角的“Fork”把我的脚本Fork到你的仓库，按☆Star开始编译
 #
