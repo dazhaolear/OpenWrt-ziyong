@@ -2,7 +2,7 @@
 sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 
 cd openwrt
-rm -rf package/lean/luci-theme-argon
+#rm -rf package/lean/luci-theme-argon
 rm -rf package/lean/luci-app-netdata
 #
 # Copyright (c) 2019-2020 P3TERX <https://p3terx.com>
