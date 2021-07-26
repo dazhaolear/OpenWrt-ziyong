@@ -1,5 +1,6 @@
 https://github.com/dazhaolear/lede 
-教程https://p3terx.com/archives/build-openwrt-with-github-actions.html
+教程
+https://p3terx.com/archives/build-openwrt-with-github-actions.html
 # 编译说明
 - 注册登陆github账号，然后点我仓库右上角的“Fork”把我的脚本Fork到你的仓库，按☆Star开始编译
 #
