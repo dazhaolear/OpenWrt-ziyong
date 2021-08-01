@@ -39,7 +39,8 @@ git clone https://github.com/jerrykuku/luci-app-argon-config.git package/luci-ap
 #应用管理
 git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 #文件管理
-git clone https://github.com/xiaozhuai/luci-app-filebrowser package/luci-app-filebrowser
+#git clone https://github.com/xiaozhuai/luci-app-filebrowser package/luci-app-filebrowser
+git clone -b 18.06 https://github.com/xiaozhuai/luci-app-filebrowser package/luci-app-filebrowser
 #高级重启
 git clone https://github.com/dazhaolear/luci-app-autorebootnew.git package/luci-app-autorebootnew
 #网速测试
