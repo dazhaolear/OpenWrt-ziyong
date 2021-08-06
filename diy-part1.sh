@@ -26,7 +26,7 @@ git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luc
 #sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' ./feeds/luci/collections/luci/Makefile
 
 # Add a feed source
-git clone https://github.com/siropboy/sirpdboy-package package/sirpdboy-package
+#####git clone https://github.com/siropboy/sirpdboy-package package/sirpdboy-package
 
 #git clone https://github.com/kenzok8/small.git /package/small
 git clone https://github.com/zzsj0928/luci-app-pushbot package/luci-app-pushbot
