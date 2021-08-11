@@ -2,7 +2,8 @@
 echo 'src-git lienol https://github.com/Lienol/openwrt-package' >>feeds.conf.default  
 echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
 echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
-echo 'src-git MrH723 https://github.com/MrH723/openwrt-packages' >>feeds.conf.default
+#echo 'src-git MrH723 https://github.com/MrH723/openwrt-packages' >>feeds.conf.default
+echo 'src-git freifunk https://github.com/freifunk/openwrt-packages.git' >>feeds.conf.default
 #cd openwrt
 rm -rf package/lean/luci-theme-argon
 rm -rf package/lean/luci-app-netdata
