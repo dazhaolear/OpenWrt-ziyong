@@ -34,7 +34,7 @@ git clone https://github.com/zzsj0928/luci-app-pushbot package/luci-app-pushbot
 git clone https://github.com/esirplayground/luci-app-poweroff.git package/lean/luci-app-poweroff #关机
 # Add Onliner
 # git clone https://github.com/rufengsuixing/luci-app-onliner.git feeds/luci/applications/luci-app-onliner
-git clone https://github.com/rufengsuixing/luci-app-onliner.git package/luci-app-onliner
+git clone -b openwrt-19 https://github.com/rufengsuixing/luci-app-onliner.git package/luci-app-onliner
 #argon管理
 git clone https://github.com/jerrykuku/luci-app-argon-config.git package/luci-app-argon-config
 #应用管理
