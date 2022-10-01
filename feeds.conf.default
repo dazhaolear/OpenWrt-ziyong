@@ -5,7 +5,7 @@ src-git luci https://github.com/coolsnowwolf/luci
 #其他
 ##src-git freifunk https://github.com/freifunk/openwrt-packages.git
 #src-git kenzo https://github.com/kenzok8/openwrt-packages
-src-git small https://github.com/kenzok8/small 
+#src-git small https://github.com/kenzok8/small 
 ##src-git lienol https://github.com/Lienol/openwrt-package
 src-git MrH723 https://github.com/MrH723/openwrt-packages
 #
